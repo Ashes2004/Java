@@ -22,6 +22,21 @@ public class Customer {
 
     }
 
+    public void showCartDetails()
+    {
+        double totalPrice = 0;
+        for(Product p : cart)
+        {
+            System.out.println("Product name: " + p.name + " , price : " + p.price);
+            totalPrice += p.price;
+        }
+        System.out.println("Total price : " + totalPrice);
+
+    }
+
+    public List<Product> getCart() {
+        return cart;
+    }
 
     public void addToCart(Product p1)
     {

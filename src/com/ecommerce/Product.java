@@ -9,4 +9,10 @@ public class Product {
         this.price = price;
     }
 
+    public void display()
+    {
+        System.out.println("Product name: " + name);
+        System.out.println("Product price: " + price);
+    }
+
 }
