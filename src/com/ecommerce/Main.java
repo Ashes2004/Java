@@ -27,7 +27,7 @@ public class Main {
             System.out.print("Choose: ");
 
             int choice = sc.nextInt();
-            sc.nextLine(); // clear buffer
+            sc.nextLine();
 
             switch (choice) {
                 case 1 -> addProduct();
@@ -78,7 +78,7 @@ public class Main {
             }
             default -> System.out.println("Invalid product type.");
         }
-        System.out.println("✅ Product added successfully!");
+        System.out.println("Product added successfully!");
     }
 
     private static void listProducts() {
