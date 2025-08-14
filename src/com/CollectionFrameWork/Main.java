@@ -20,6 +20,8 @@ public class Main {
       }
 
       System.out.println(Arrays.binarySearch(arr , 7));
+      int[] copy = Arrays.copyOf(arr, arr.length);
+      System.out.println("Copy: " + Arrays.toString(copy));
   }
 
 }
