@@ -17,3 +17,5 @@ public class BinarySearch {
         System.out.println(search(arr, 7)); // 3
     }
 }
+
+
